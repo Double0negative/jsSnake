@@ -42,7 +42,7 @@ function checkDead(point) {
 
 function checkFood(point) {
 	if (xfood == point.x && yfood == point.y) {
-		size++;
+		size += 10;
 		drawFood(false);
 		xfood = Math.floor((Math.random() * max));
 		yfood = Math.floor((Math.random() * max));
